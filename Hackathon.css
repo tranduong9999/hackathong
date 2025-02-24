@@ -430,10 +430,8 @@
     left: 650px;
 }
 
-/* Các phần đã có từ trước */
 
 @media only screen and (max-width: 768px) {
-    /* Cải thiện phần header cho màn hình nhỏ */
     .header {
         width: 100%;
         height: auto;
