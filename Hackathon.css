@@ -1,0 +1,580 @@
+.container {
+    width: 1440px;
+    height: 2900.15px;
+    background-color: #FFFFFF;
+}
+
+.header {
+    width: 1440px;
+    height: 111px;
+    border-bottom: 2px;
+    background-color: #fef0e3;
+    position: relative;
+}
+
+.header .top-header {
+    width: 1240px;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .top-header p{
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 72px;
+    color: #1e2130;
+    margin-left: 60px;
+}
+
+.header .top-header .logo {
+    width: 268px;
+    height: 43px;
+    gap: 24px;
+    display: flex;
+}
+
+.header .top-header .logo p {
+    width: 64px;
+    height: 11px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 50px;
+}
+
+.header .top-header .logo button {
+    width: 180px;
+    height: 43px;
+    border-radius: 32px;
+    gap: 10px;
+    background-color: #000000;
+    color: white;
+    font-weight: 500;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.main {
+    width: 1440px;
+    height: 913px;
+    background-color: #f9dbc1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "main-top img";
+}
+
+.main .main-top {
+    width: 620px;
+    height: 913px;
+    padding: 32px;
+    gap: 50px;
+    
+}
+
+.main .main-top .text {
+    width: 656px;
+    height: 311px;
+    gap: 60px;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.main .main-top .text p{
+    font-weight: 500;
+    font-size: 64px;
+    width: 476px;
+    height: 117px;
+}
+
+.main .main-top .text span {
+    width: 656px;
+    height: 49px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.main .main-top .text .content {
+    width: 656px;
+    height: 53px;
+    gap: 42px;
+    display: flex;
+}
+
+.main .main-top .text .content .content-1 {
+    width: 253px;
+    height: 53px;
+    gap: 8px;
+    display: flex;
+}
+
+.main .main-top .text .content .content-1 img {
+    width: 82px;
+    height: 45px;
+    margin-top: 30px;
+}
+
+.main .main-top .text .content .content-1 p {
+    font-weight: 400;
+    font-size: 24px;
+    list-style: 36px;
+    font-family: "Poppins";
+}
+
+.main .main-top .text .content .content-2 {
+    width: 275px;
+    height: 53px;
+    gap: 8px;
+    display: flex;
+}
+
+.main .main-top .text .content .content-2 img {
+    width: 104px;
+    height: 45px;
+    margin-top: 30px;
+}
+
+.main .main-top .text .content .content-2 p {
+    font-weight: 400;
+    font-size: 24px;
+    list-style: 36px;
+    font-family: "Poppins";
+    width: 163px;
+    height: 53px;
+}
+
+.button {
+    width: 222px;
+    height: 50px;
+    border-radius: 32px;
+    background-color: #ac82fc;
+    color: #000;
+    margin-left: 50px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.img {
+    width: 720px;
+    height: 913px;
+}
+
+.main-center {
+    display: flex;
+    width: 1440px;  
+    height: 1309px;
+    background-color: #c6c2cd;
+}
+
+.main-center .main-center-top {
+    width: 1312px;
+    height: 67px;
+    gap: 50px;
+    margin-top: 32px;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-bottom: 32px;
+}
+
+.main-center .main-center-top .text {
+    width: 308px;
+    height: 67px;
+    gap: 16px;
+    text-align: center;
+    margin-left: 500px;
+}
+
+.main-center .main-center-top .text p{
+    width: 99px;
+    height: 17px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #36009D;
+    margin-left: 110px;
+}
+
+.main-center .main-center-top .text span {
+    width: 308px;
+    height: 34px;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.main-center-img {
+    width: 1312px;
+    height: 1128px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 cột trên cùng */
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "img1-2 img1-2"
+    "img3-4 img3-4";
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.main-center-img .img1-2 {
+    width: 1312px;
+    height: 552px;
+    gap: 32px;
+    position: relative;
+}
+
+.main-center-img .img1-2 .img-1 {
+    width: 640px;
+    height: 552px;
+    border-radius: 29px;
+    border: 2px solid black;
+    color: #000000;
+    background-color: white;
+}
+
+.main-center-img .img1-2 .img-1 img {
+    width: 592px;
+    height: 377px;
+    border-radius: 16px;
+    border: 1px solid #000000;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.main-center-img .img1-2 .img-1 .text {
+    width: 592px;
+    height: 98px;
+}
+
+.main-center-img .img1-2 .img-1 .text p{
+    font-weight: 700;
+    font-size: 24px;
+    position: absolute;
+    left: -293px;
+    width: 592px;
+    height: 36px;
+}
+
+.main-center-img .img1-2 .img-1 .text span {
+    width: 592px;
+    height: 62px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #565656;
+    position: absolute;
+    left: 1px;
+    bottom: 26px;
+    letter-spacing: -1%;
+}
+
+.main-center-img .img1-2 .img-2 {
+    width: 640px;
+    height: 552px;
+    border-radius: 29px;
+    border: 2px solid #000000;
+    position: absolute;
+    top: 1px;
+    right: 2px;
+    background-color: white;
+}
+
+.main-center-img .img3-4 {
+    width: 1312px;
+    height: 552px;
+    position: absolute;
+    top: 570px;
+}
+
+.main-center-img .img3-4 .img-3 {
+    width: 640px;
+    height: 552px;
+    border-radius: 29px;
+    border: 2px solid #000000;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    background-color: white;
+}
+
+.main-center-img .img3-4 .img-3 img {
+    width: 592px;
+    height: 377px;
+    border-radius: 16px;
+    border: 1px solid #000000;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.main-center-img .img3-4 .img-3 .text p{
+    font-weight: 700;
+    font-size: 24px;
+    position: absolute;
+    left: -310px;
+    width: 592px;
+    height: 36px;
+}
+
+.main-center-img .img3-4 .img-3 .text span {
+    width: 592px;
+    height: 62px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #565656;
+    position: absolute;
+    left: 1px;
+    bottom: 26px;
+    letter-spacing: -1%;
+}
+
+.main-center-img .img3-4 .img-4 {
+    width: 640px;
+    height: 552px;
+    border-radius: 29px;
+    border: 2px solid #000000;
+    position: absolute;
+    top: 1px;
+    right: -670px;
+    background-color: white;
+}
+
+.main-center-img .img3-4 .img-4 .text p{
+    font-weight: 700;
+    font-size: 24px;
+    position: absolute;
+    left: -280px;
+    width: 592px;
+    height: 36px;
+}
+
+.main-center-img .img3-4 .img-4 .text span {
+    width: 592px;
+    height: 62px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #565656;
+    position: absolute;
+    left: 1px;
+    bottom: 26px;
+    letter-spacing: -1%;
+}
+
+.footer-top {
+    width: 1441px;
+    height: 496px;
+    background-color: #ffd7d4;
+    margin-left: -68px;
+    margin-top: 93px;
+    position: relative;
+}
+
+.footer-top .content {
+    width: 1240px;
+    height: 306px;
+    gap: 60px;
+    position: absolute;
+    top: 95px;
+    left: 100px;
+    right: 100px;
+    bottom: 95px;
+}
+
+.footer-top .content p{
+    width: 568px;
+    height: 34px;
+    font-weight: 600;
+    font-size: 48px;
+    margin-left: 400px;
+}
+
+
+.footer-top .content span {
+    width: 494px;
+    height: 59px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #565656;
+    line-height: 24px;
+    margin-left: 420px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+    width: 1240px;
+    height: 127px;
+}
+
+.information .content {
+    background-color: #FFFFFF;
+    width: 364px;
+    height: 127px;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    margin-top: 200px;
+    display: flex;
+}
+
+.footer {
+    width: 1440px;
+    height: 71.15px;
+    background-color: #000000;
+    margin-left: -68px;
+    margin-top: -16px;
+    position: relative;
+}
+
+.footer p{
+    color: #FFFFFF;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    left: 650px;
+}
+
+/* Các phần đã có từ trước */
+
+@media only screen and (max-width: 768px) {
+    /* Cải thiện phần header cho màn hình nhỏ */
+    .header {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .header .top-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header .top-header p {
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    .header .top-header .logo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "main-top";
+    }
+
+    .main .main-top {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .main .main-top .text {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .main .main-top .text p {
+        font-size: 32px;
+    }
+
+    .main .main-top .text span {
+        font-size: 18px;
+    }
+
+    .main .main-top .text .content {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .main .main-top .text .content .content-1,
+    .main .main-top .text .content .content-2 {
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .button {
+        width: 100%;
+        padding: 12px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-center {
+        width: 100%;
+        display: block;
+        padding: 20px;
+    }
+
+    .main-center .main-center-top {
+        text-align: center;
+    }
+
+    .main-center .main-center-top .text p {
+        font-size: 28px;
+    }
+
+    .main-center .main-center-top .text span {
+        font-size: 40px;
+    }
+
+    .main-center-img {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .main-center-img .img1-2,
+    .main-center-img .img3-4 {
+        flex-direction: column;
+    }
+
+    .main-center-img .img-1,
+    .main-center-img .img-2,
+    .main-center-img .img-3,
+    .main-center-img .img-4 {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-top {
+        padding: 40px;
+    }
+
+    .footer-top .content {
+        text-align: center;
+    }
+
+    .footer-top .content p {
+        font-size: 36px;
+    }
+
+    .footer-top .content span {
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+
+    .information {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .information .content {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
